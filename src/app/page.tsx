@@ -29,9 +29,9 @@ export default function Home() {
         
           <div style={{ display: 'flex', gap: '24px', alignItems: 'center' }}>
             <img
-              src="/flcl.jpg"
+              src="/me.jpg"
               alt="Saul"
-              style={{ width: '72px', height: '72px', borderRadius: '50%', objectFit: 'cover' }}
+              style={{ width: '122px', height: '122px', borderRadius: '50%', objectFit: 'cover' }}
             />
             <div style={{ display: 'flex', gap: '8px', alignItems: 'flex-start', flexDirection: 'column' }}>
               <div style={{ display: 'flex', gap: '2px', alignItems: 'flex-start', flexDirection: 'column' }}>

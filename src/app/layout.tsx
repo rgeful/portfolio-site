@@ -11,7 +11,7 @@ const url = "https://your-domain.com"; //soon
 const title = "Saul Plascencia | Portfolio";
 const description = "Saul Plascencia's personal website and portfolio";
 const name = "Saul Plascencia";
-const image = `${url}/flcl.jpg`;
+const image = `${url}/me.jpg`;
 
 export const metadata: Metadata = {
   title,
