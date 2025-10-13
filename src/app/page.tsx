@@ -1,4 +1,5 @@
 'use client';
+import Image from "next/image";
 import {
   RiGithubLine,
   RiLinkedinLine,
@@ -28,10 +29,14 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         
           <div style={{ display: 'flex', gap: '24px', alignItems: 'center' }}>
-            <img
+            <Image
               src="/me.jpg"
               alt="Saul"
-              style={{ width: '122px', height: '122px', borderRadius: '50%', objectFit: 'cover' }}
+              width={122}
+              height={122}
+              quality={100}
+              priority
+              style={{ borderRadius: '50%', objectFit: 'cover' }}
             />
             <div style={{ display: 'flex', gap: '8px', alignItems: 'flex-start', flexDirection: 'column' }}>
               <div style={{ display: 'flex', gap: '2px', alignItems: 'flex-start', flexDirection: 'column' }}>
