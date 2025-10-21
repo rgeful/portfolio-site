@@ -13,8 +13,8 @@ export default function Hero() {
           className="rounded-full w-32 h-32 sm:w-40 sm:h-40"
         />
         <div>
-          <h1 className="text-3xl sm:text-5xl font-semi-bold">Hi, I&apos;m Saul</h1>
-          <p className="text-lg sm:text-xl mt-2">Computer science student</p>
+          <h1 className="text-2xl sm:text-4xl font-semi-bold">Hi, I&apos;m Saul</h1>
+          <p className="text-lg sm:text-xl mt-2 text-gray-300">Computer science student<br />at Fresno State</p>
           <div className="flex gap-6 sm:gap-8 mt-4 sm:mt-6 justify-center sm:justify-start">
             <a href="https://github.com/rgeful" target="_blank" className="hover:opacity-75 transition-opacity">
               <RiGithubLine size={24} className="sm:w-8 sm:h-8" />

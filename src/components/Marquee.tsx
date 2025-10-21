@@ -1,17 +1,17 @@
-import Image from "next/image";
+import { FaReact, FaGitAlt, FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
+import { SiNextdotjs, SiTailwindcss, SiJavascript, SiTypescript, SiVercel } from "react-icons/si";
 
-const logos = [
-  { name: "HTML5", src: "/HTML5.svg" },
-  { name: "CSS", src: "/CSS.svg" },
-  { name: "JavaScript", src: "/js.svg" },
-  { name: "TypeScript", src: "/ts.svg" },
-  { name: "React", src: "/react.svg" },
-  { name: "Node.js", src: "/nodejs.svg" },
-  { name: "Next.js", src: "/nextjs.svg" },
-  { name: "Tailwind CSS", src: "/tailwindcss.svg" },
-  { name: "Git", src: "/git.svg" },
-  {name: "CSharp", src: "/csharp.svg"},
-  { name: "Vercel", src: "/vercel.svg" },
+const icons = [
+  { name: "HTML5", Icon: FaHtml5, color: "text-gray-300" },
+  { name: "CSS", Icon: FaCss3Alt, color: "text-white" },
+  { name: "JavaScript", Icon: SiJavascript, color: "text-gray-300" },
+  { name: "TypeScript", Icon: SiTypescript, color: "text-white" },
+  { name: "React", Icon: FaReact, color: "text-gray-300" },
+  { name: "Node.js", Icon: FaNodeJs, color: "text-white" },
+  { name: "Next.js", Icon: SiNextdotjs, color: "text-gray-300" },
+  { name: "Tailwind CSS", Icon: SiTailwindcss, color: "text-white" },
+  { name: "Git", Icon: FaGitAlt, color: "text-gray-300" },
+  { name: "Vercel", Icon: SiVercel, color: "text-white" },
 ];
 
 export default function Marquee() {
@@ -20,28 +20,25 @@ export default function Marquee() {
       <div className="w-full max-w-xs sm:max-w-3xl overflow-hidden py-6">
         <div className="relative flex">
           <div className="flex animate-marquee whitespace-nowrap">
-            {logos.map((logo, index) => (
-              <div key={index} className="mx-4 sm:mx-8 flex items-center justify-center">
-                <Image
-                  src={logo.src}
-                  alt={logo.name}
-                  width={48}
-                  height={48}
-                  className="h-8 w-8 sm:h-12 sm:w-12 object-contain flex-shrink-0"
-                />
+            {icons.map(({ Icon, name, color }, index) => (
+              <div
+                key={index}
+                className="mx-4 sm:mx-8 flex items-center justify-center"
+                title={name}
+              >
+                <Icon className={`h-8 w-8 sm:h-12 sm:w-12 ${color}`} />
               </div>
             ))}
           </div>
+
           <div className="flex animate-marquee whitespace-nowrap" aria-hidden="true">
-            {logos.map((logo, index) => (
-              <div key={index} className="mx-4 sm:mx-8 flex items-center justify-center">
-                <Image
-                  src={logo.src}
-                  alt={logo.name}
-                  width={48}
-                  height={48}
-                  className="h-8 w-8 sm:h-12 sm:w-12 object-contain flex-shrink-0"
-                />
+            {icons.map(({ Icon, name, color }, index) => (
+              <div
+                key={index}
+                className="mx-4 sm:mx-8 flex items-center justify-center"
+                title={name}
+              >
+                <Icon className={`h-8 w-8 sm:h-12 sm:w-12 ${color}`} />
               </div>
             ))}
           </div>
@@ -50,4 +47,5 @@ export default function Marquee() {
     </div>
   );
 }
+
 
