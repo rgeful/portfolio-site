@@ -17,7 +17,10 @@ const icons = [
 export default function Marquee() {
   return (
     <div className="w-full flex justify-center py-0 sm:py-2 px-4">
-      <div className="w-full max-w-xs sm:max-w-3xl overflow-hidden py-6">
+      <div className="w-full max-w-2xl relative overflow-hidden">
+        <div className="pointer-events-none absolute left-0 top-0 h-full w-16 bg-gradient-to-r from-black via-black/80 to-transparent z-10" />
+        <div className="pointer-events-none absolute right-0 top-0 h-full w-16 bg-gradient-to-l from-black via-black/80 to-transparent z-10" />
+
         <div className="relative flex">
           <div className="flex animate-marquee whitespace-nowrap">
             {icons.map(({ Icon, name, color }, index) => (
