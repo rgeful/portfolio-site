@@ -96,27 +96,40 @@ export default function Project() {
                 </div>
 
                 <div className="block p-4 border border-gray-300 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                    <h3 className="text-lg text-black font-bold mb-2">
-                        Motivator SMS
-                    </h3>
-                    <p className="text-gray-600 mb-2 text-sm">
-                        A simple, serverless app that sends motivational messages directly to your Telegram 3 times per day.
-                    </p>
-                    <div className="flex flex-wrap gap-1.5">
-                        <span className="text-black text-[10px]">Next.js</span>
-                        <span className="text-black text-[10px]">TypeScript</span>
-                        <span className="text-black text-[10px]">Vercel</span>
-                        <span className="text-black text-[10px]">Telegram API</span>
-                    </div>
-                    <div className="flex justify-end mt-2">
-                        <a 
-                            href="https://github.com/rgeful/motivator-sms" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-gray-600 hover:text-black transition-colors"
-                        >
-                            <RiGithubLine className="w-4 h-4" />
-                        </a>
+                    <div className="flex gap-3 items-center">
+                        <div className="flex-shrink-0">
+                            <Image 
+                                src="/telegram.png" 
+                                alt="Motivator SMS"
+                                width={80}
+                                height={80}
+                                className="rounded-md object-cover"
+                            />
+                        </div>
+                        <div className="flex-1">
+                            <h3 className="text-lg text-black font-bold mb-2">
+                                Motivator SMS
+                            </h3>
+                            <p className="text-gray-600 mb-2 text-sm">
+                                A simple, serverless app that sends motivational messages directly to your Telegram 3 times per day.
+                            </p>
+                            <div className="flex flex-wrap gap-1.5">
+                                <span className="text-black text-[10px]">Next.js</span>
+                                <span className="text-black text-[10px]">TypeScript</span>
+                                <span className="text-black text-[10px]">Vercel</span>
+                                <span className="text-black text-[10px]">Telegram API</span>
+                            </div>
+                            <div className="flex justify-end mt-2">
+                                <a 
+                                    href="https://github.com/rgeful/motivator-sms" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="text-gray-600 hover:text-black transition-colors"
+                                >
+                                    <RiGithubLine className="w-4 h-4" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
