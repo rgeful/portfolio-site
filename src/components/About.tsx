@@ -10,7 +10,7 @@ export default function About() {
                 •  Full-Stack Web Development: Build responsive and user-friendly web applications using technologies like React, Next.js, and Node.js.
             </p>
             <p className="text-base sm:text-lg text-gray-600 mb-3">
-                •  AI Integration: Explore AI technologies and integrating them into web applications
+                •  AI Integration: Explore AI technologies and integratate them into my web apps.
             </p>
         </div>
     );
