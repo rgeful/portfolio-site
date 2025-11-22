@@ -3,7 +3,9 @@ export default function About() {
         <div className="p-3 sm:p-6 pt-6 sm:pt-12 pb-3 sm:pb-6 lg:pt-16 max-w-3xl lg:max-w-4xl mx-auto">
             <h2 className="text-xl sm:text-2xl font-bold mb-3 text-black">About Me</h2>
             <p className="text-base sm:text-lg text-gray-600 mb-3">
-                I&apos;m Saul Plascencia, a computer science student at Fresno State with a passion for full-stack web development and AI. I like building meaningful and helpful applications as a way to solve problems, provide solutions, and express creativity.
+                I like building meaningful and helpful applications as a way to solve problems, provide solutions, and express creativity.
+                I am currently touching up on my skills and getting up to speed with modern web development technologies and AI integration.
+                I am also putting these skills to use by working on personal projects and collaborating with others :)
             </p>
             <h2 className="text-lg sm:text-xl text-black font-bold mb-3">What I do</h2>
             <p className="text-base sm:text-lg text-gray-600 mb-3">

@@ -18,7 +18,7 @@ export default function Hero() {
             <RiMapPinLine className="text-gray-500 w-4 h-4" />
             <p className="text-sm text-gray-500">Los Banos, CA</p>
           </div>
-          <p className="text-lg sm:text-xl mt-3 text-gray-600">Computer science student<br />at Fresno State. I like building web applications and exploring AI technologies.</p>
+          <p className="text-lg sm:text-xl mt-3 text-gray-600">Computer science student<br />at Fresno State. I like building web apps that help people.</p>
           <div className="flex gap-5 sm:gap-7 mt-4 sm:mt-5 justify-center sm:justify-start">
             <a href="https://github.com/rgeful" target="_blank" className="text-gray-600 hover:text-black transition-colors">
               <RiGithubLine size={24} className="sm:w-8 sm:h-8" />
