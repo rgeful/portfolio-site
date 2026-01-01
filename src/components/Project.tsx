@@ -217,9 +217,11 @@ export default function Project() {
                             Building a web platform that helps users fix and optimize their resumes for specific job applications using AI-powered suggestions and improvements.
                         </p>
                         <div className="flex flex-wrap gap-1.5">
-                            <span className="text-black text-[10px]">Next.js</span>
+                            <span className="text-black text-[10px]">Vite</span>
+                            <span className="text-black text-[10px]">FastAPI</span>
                             <span className="text-black text-[10px]">TypeScript</span>
-                            <span className="text-black text-[10px]">Supabase</span>
+                            <span className="text-black text-[10px]">Python</span>
+                            <span className="text-black text-[10px]">MongoDB</span>
                             <span className="text-black text-[10px]">Stripe</span>
                             <span className="text-black text-[10px]">OpenAI API</span>
                         </div>
