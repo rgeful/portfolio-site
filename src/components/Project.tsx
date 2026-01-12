@@ -241,6 +241,8 @@ export default function Project() {
                         </p>
                         <div className="flex flex-wrap gap-1.5">
                             <span className="text-black text-[10px]">Next.js</span>
+                            <span className="text-black text-[10px]">PostgreSQL</span>
+                            <span className="text-black text-[10px]">TypeScript</span>
                             <span className="text-black text-[10px]">OpenAI API</span>
                             <span className="text-black text-[10px]">Upstash Redis</span>
                             <span className="text-black text-[10px]">Vercel Cron</span>
