@@ -102,6 +102,44 @@ export default function Project() {
                     </div>
                 </div>
 
+                    <div className="block p-4 border border-gray-300 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                        <div className="flex gap-3 items-center">
+                            <div className="flex-shrink-0">
+                                <Image 
+                                    src="/logo.png" 
+                                    alt="DinoAtlas"
+                                    width={80}
+                                    height={80}
+                                    className="rounded-md object-cover"
+                                />
+                            </div>
+                            <div className="flex-1">
+                                <h3 className="text-lg text-black font-bold mb-2">
+                                    Dino Atlas
+                                </h3>
+                                <p className="text-gray-600 mb-2 text-sm">
+                                    An interactive geospatial dashboard that visualizes the prehistoric world.
+                                </p>
+                                <div className="flex flex-wrap gap-1.5">
+                                    <span className="text-black text-[10px]">Next.js</span>
+                                    <span className="text-black text-[10px]">TypeScript</span>
+                                    <span className="text-black text-[10px]">PostgreSQL</span>
+                                    <span className="text-black text-[10px]">Supabase</span>
+                                </div>
+                                <div className="flex justify-end mt-2">
+                                    <a 
+                                        href="https://github.com/rgeful/dino-atlas" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                        className="text-gray-600 hover:text-black transition-colors"
+                                    >
+                                        <RiGithubLine className="w-4 h-4" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 <div className="block p-4 border border-gray-300 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                     <div className="flex gap-3 items-center">
                         <div className="flex-shrink-0 w-20 h-20 flex items-center justify-center">
@@ -195,44 +233,6 @@ export default function Project() {
                 <div className="grid grid-cols-1 gap-4">
 
                     <div className="block p-4 border border-gray-300 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                        <div className="flex gap-3 items-center">
-                            <div className="flex-shrink-0">
-                                <Image 
-                                    src="/logo.png" 
-                                    alt="DinoAtlas"
-                                    width={80}
-                                    height={80}
-                                    className="rounded-md object-cover"
-                                />
-                            </div>
-                            <div className="flex-1">
-                                <h3 className="text-lg text-black font-bold mb-2">
-                                    Dino Atlas
-                                </h3>
-                                <p className="text-gray-600 mb-2 text-sm">
-                                    An interactive geospatial dashboard that visualizes the prehistoric world.
-                                </p>
-                                <div className="flex flex-wrap gap-1.5">
-                                    <span className="text-black text-[10px]">Next.js</span>
-                                    <span className="text-black text-[10px]">TypeScript</span>
-                                    <span className="text-black text-[10px]">PostgreSQL</span>
-                                    <span className="text-black text-[10px]">Supabase</span>
-                                </div>
-                                <div className="flex justify-end mt-2">
-                                    <a 
-                                        href="https://github.com/rgeful/dino-atlas" 
-                                        target="_blank" 
-                                        rel="noopener noreferrer"
-                                        className="text-gray-600 hover:text-black transition-colors"
-                                    >
-                                        <RiGithubLine className="w-4 h-4" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="block p-4 border border-gray-300 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                         <h3 className="text-lg text-black font-bold mb-2">
                             FlowSync – Natural-Language Automation System
                         </h3>
@@ -245,6 +245,18 @@ export default function Project() {
                             <span className="text-black text-[10px]">Upstash Redis</span>
                             <span className="text-black text-[10px]">Vercel Cron</span>
                         </div>
+
+                        <div className="flex justify-end mt-2">
+                                    <a 
+                                        href="https://github.com/rgeful/flowsync" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                        className="text-gray-600 hover:text-black transition-colors"
+                                    >
+                                        <RiGithubLine className="w-4 h-4" />
+                                    </a>
+                        </div>
+
                     </div>
 
                     <div className="block p-4 border border-gray-300 rounded-lg shadow-sm hover:shadow-md transition-shadow">
@@ -263,6 +275,18 @@ export default function Project() {
                             <span className="text-black text-[10px]">Stripe</span>
                             <span className="text-black text-[10px]">OpenAI API</span>
                         </div>
+
+                        <div className="flex justify-end mt-2">
+                                    <a 
+                                        href="https://github.com/rgeful/RezFix" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                        className="text-gray-600 hover:text-black transition-colors"
+                                    >
+                                        <RiGithubLine className="w-4 h-4" />
+                                    </a>
+                        </div>
+
                     </div>
                 </div>
             </div>
