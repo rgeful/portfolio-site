@@ -40,7 +40,7 @@ export const PROJECTS: Project[] = [
 {
     title: "Pixel Art Generator",
     description: "AI generates pixel art from user sketches.",
-    image: "",
+    image: "/pixel-art-generator-image2.png",
     technologies: ["Next.js", "PostgreSQL", "TypeScript", "OpenAI API", "Upstash Redis", "Vercel Cron"],
     category: "Programming",
     githubUrl: "https://github.com/rgeful/flowsync"

@@ -15,7 +15,7 @@ export default function Project() {
                             href={projectLink}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="block p-4 border border-zinc-700 rounded-lg transition-all duration-200 hover:scale-[1.01]"
+                            className="block p-4 border border-zinc-700 rounded-lg transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
                         >
                             <div className="flex gap-3 items-center">
                                 {project.video ? (
@@ -75,7 +75,7 @@ export default function Project() {
                                     href={projectLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="block p-4 border border-zinc-700 rounded-lg transition-all duration-200 hover:scale-[1.01]"
+                                    className="block p-4 border border-zinc-700 rounded-lg transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
                                 >
                                     <h3 className="text-lg text-white font-bold mb-2">
                                         {project.title}
