@@ -66,8 +66,8 @@ export default function ProjectsPage() {
                   ) : null}
                 </div>
                 <div>
-                  <h3 className="text-white font-semibold mb-1">{project.title}</h3>
-                  <p className="text-zinc-400 text-sm leading-relaxed">{project.description}</p>
+                  <h3 className="text-white px-3 font-semibold mb-1">{project.title}</h3>
+                  <p className="text-zinc-400 px-3 text-sm leading-relaxed">{project.description}</p>
                 </div>
               </a>
             );

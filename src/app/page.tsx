@@ -46,7 +46,7 @@ export default function Home() {
       </div>
 
       <div className="mt-16">
-        <h2 className="text-2xl font-bold text-white mb-6">Elsewhere</h2>
+        <h2 className="text-xl font-semibold text-white mb-6">Find me on:</h2>
         <div className="flex flex-wrap gap-4">
           <a href="https://github.com/rgeful" target="_blank" className="text-zinc-400 hover:text-white transition-colors">
             GitHub

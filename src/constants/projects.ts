@@ -43,7 +43,7 @@ export const PROJECTS: Project[] = [
     image: "/pixel-art-generator-image2.png",
     technologies: ["Next.js", "PostgreSQL", "TypeScript", "OpenAI API", "Upstash Redis", "Vercel Cron"],
     category: "Programming",
-    githubUrl: "https://github.com/rgeful/flowsync"
+    githubUrl: "https://github.com/rgeful/pixel-art-generator"
   },
   {
     title: "TopSecretTint",
