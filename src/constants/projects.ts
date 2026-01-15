@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
   {
     title: "FlowSync",
     description: "A serverless automation platform that converts plain-English instructions into structured, executable tasks.",
-    image: "",
+    video: "/flowsync_demo.mp4",
     technologies: ["Next.js", "PostgreSQL", "TypeScript", "OpenAI API", "Upstash Redis", "Vercel Cron"],
     category: "Programming",
     githubUrl: "https://github.com/rgeful/flowsync"
