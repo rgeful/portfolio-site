@@ -29,7 +29,7 @@ export default function Home() {
 
       <div className="space-y-6 text-white">
         <p>
-          I&apos;m Saul from <span className="underline">Los Banos, CA</span> and am currently studying computer science at CSU Fresno. I&apos;m currently looking for any experience I can get in the world of software engineering.
+          I&apos;m Saul from Los Banos, CA and am currently studying computer science at CSU Fresno. I&apos;m currently looking for any experience I can get in the world of software engineering.
         </p>
 
         <p>
@@ -37,7 +37,7 @@ export default function Home() {
         </p>
 
         <p>
-          Most days you&apos;ll find me <span className="underline">running</span> or in the gym. I also like hiking and eating food, lots of food. When I want to chill, I usually play Souls games or doomscroll.
+          Most days you&apos;ll find me <a href="./more" className="underline">running</a> or in the gym. I also like hiking and eating food, lots of food. When I want to chill, I usually play Souls games or doomscroll.
         </p>
 
         <p>
