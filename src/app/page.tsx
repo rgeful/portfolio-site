@@ -37,7 +37,7 @@ export default function Home() {
         </p>
 
         <p>
-          Most days you&apos;ll find me <a href="./more" className="underline">running</a> or in the gym. I also like hiking and eating food, lots of food. When I want to chill, I usually play Souls games or doomscroll.
+          Most days you&apos;ll find me <a href="./more" className="underline">running</a> or in the gym. I also like hiking and eating food, lots of food. When I want to chill, I usually play Souls games or scroll ig reels.
         </p>
 
         <p>
