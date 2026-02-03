@@ -1,3 +1,9 @@
+import Heatmap from '@/components/Heatmap';
+
 export default function morePage() {
-    return <div>More Page</div>;
+    return (
+        <div>
+            <Heatmap />
+        </div>
+    );
 }
