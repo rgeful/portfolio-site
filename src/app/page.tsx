@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className="text-2xl md:text-4xl font-bold text-white mb-6 md:mb-8">Hi, welcome to my website!</h1>
 
       <div className="flex flex-wrap gap-4 md:gap-6 mb-8 md:mb-12 justify-center md:justify-start">
-        <div className="relative w-40 h-48 md:w-48 md:h-56 bg-white p-3 rotate-[-3deg] shadow-lg">
+        <div className="relative w-40 h-52 md:w-48 md:h-64 bg-white pt-3 px-3 pb-8 md:pb-12 rotate-[-3deg] shadow-xl">
           <Image
             src="/pointlobos.webp"
             alt="Point Lobos, 2024"
@@ -16,7 +16,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="relative w-40 h-48 md:w-48 md:h-56 bg-white p-3 rotate-[1deg] shadow-lg">
+        <div className="relative w-40 h-52 md:w-48 md:h-64 bg-white pt-3 px-3 pb-8 md:pb-12 rotate-[1deg] shadow-xl">
           <Image
             src="/bigsur.webp"
             alt="Big Sur, 2024"
